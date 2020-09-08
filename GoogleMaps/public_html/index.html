@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+<head>
+    
+    <style>
+        html {height:300px}
+        body {height:800px; width: 600px; margin:0;padding:0}
+        #map {height:100%}
+    </style>
+
+    <title> Google Maps </title>
+    <script type="text/javascript" 
+                src="http://maps.googleapis.com/maps/api/js?key=AIzaSyA24ApJAlNUV8uvrjcwfPlOevrOAt8bLTI&sensor=false&y=3.exp"></script>
+    <script type="text/javascript" src="map.js"></script>
+
+</head>
+<body>
+<div id="map"></div>
+<button onclick="antipodeAndBack()"> Button 3 Antipode and Back </button>
+<button onclick="moveToLocationAndMarker(0,0)">Button1 Move and Marker </button>
+<button onclick="randomMoveMarker()">Button 2 Random Move and Marker</button>
+<button onclick="moveToLocationAndSquare(0,0)">Button 4 Info Square</button>
+<button onclick="polyregion()">Button 5 Region</button>
+<button onclick="randomMoveMarker()">Button 6 Alternative Routes </button>
+</body>
+</html>
